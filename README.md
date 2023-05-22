@@ -31,11 +31,12 @@ In this challenge, you'll use your knowledge of SparkSQL to determine key metric
 
 * What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
 
-<img width="1037" alt="Screenshot 2023-05-22 at 10 47 55 AM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/a0ae8524-1891-4e02-a3c2-b38408f4f0c2">
+<img width="1123" alt="Screenshot 2023-05-22 at 1 51 43 PM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/89757811-3797-43e7-806a-b84ec540c78d">
+
 
 * What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 
-<img width="990" alt="Screenshot 2023-05-22 at 10 49 53 AM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/b71c4988-d359-4233-a567-d35e8d5ad756">
+<img width="1049" alt="Screenshot 2023-05-22 at 1 52 43 PM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/79c4f149-1a98-4e72-af15-d29ac4ac53b0">
 
 6. Cache your temporary table home_sales.
 
@@ -47,7 +48,7 @@ In this challenge, you'll use your knowledge of SparkSQL to determine key metric
 
 8. Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 
-<img width="743" alt="Screenshot 2023-05-22 at 10 51 37 AM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/4cdcc5dd-e259-4386-9aed-348e6c7cb30b">
+<img width="931" alt="Screenshot 2023-05-22 at 1 53 59 PM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/a57629f3-7e77-464c-9628-aa4a9d73a1b5">
 
 9. Partition by the "date_built" field on the formatted parquet home sales data.
 
@@ -59,7 +60,7 @@ In this challenge, you'll use your knowledge of SparkSQL to determine key metric
 
 11. Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 
-<img width="856" alt="Screenshot 2023-05-22 at 10 53 38 AM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/b82053db-6639-4005-a289-c6da997c31a6">
+<img width="998" alt="Screenshot 2023-05-22 at 1 55 16 PM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/2946361c-4451-430e-95fd-c5f736f56c26">
 
 12. Uncache the home_sales temporary table.
 
