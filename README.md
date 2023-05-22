@@ -71,3 +71,7 @@ In this challenge, you'll use your knowledge of SparkSQL to determine key metric
 <img width="547" alt="Screenshot 2023-05-22 at 10 54 40 AM" src="https://github.com/DeMaagdJ/Home_Sales/assets/119906575/0737ab3a-1c86-4b6e-8a17-9565a9142bf6">
 
 14. Download your Home_Sales.ipynb file and upload it into your "Home_Sales" GitHub repository.
+
+## Results
+
+After querying the uncached view we started at a run time of 6.1 seconds.  After caching the SQL table I was able to reduce the run time down to 5.5 seconds.  After partitioning the parquet format I was able to recude the run time to view the SQL query to 4.1 seconds.  Ultimately caching data speeds up performance and increase the efficiency when analyzing SQL queries.
